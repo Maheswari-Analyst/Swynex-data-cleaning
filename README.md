@@ -1,5 +1,5 @@
 # Swynex-data-cleaning
-# E-Commerce Transaction Data Cleaning Pipeline 
+# E-Commerce Transaction Data Cleaning
 
 ## Project Overview
 This repository contains the data cleaning pipeline built for **Task 1** of the Data Analyst experience with **Swynex Technologies** (in collaboration with Internship Studio). 
