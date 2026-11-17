@@ -1,0 +1,81 @@
+# E-Commerce Exploratory Data Analysis
+
+## Project Overview
+This repository contains an Exploratory Data Analysis (EDA) performed on a cleaned e-commerce transactional dataset consisting of **30,600 orders** spanning from **January 2023 to December 2025**.
+
+The analysis focuses on uncovering key trends, patterns, anomalies, and actionable business insights related to revenue, customer behavior, promotional effectiveness, and category performance.
+
+---
+
+## Dataset
+**File:** `cleaned_ecommerce_data.csv`
+
+| Column                  | Description                          |
+|-------------------------|--------------------------------------|
+| order_id                | Unique order identifier              |
+| order_date              | Date of the order                    |
+| state                   | Indian state                         |
+| zone                    | Geographic zone (North/South/East/West/Central) |
+| category                | Product category                     |
+| brand_type              | Mass / Premium                       |
+| customer_gender         | Male / Female                        |
+| customer_age            | Age of the customer                  |
+| base_price              | Original price                       |
+| discount_percent        | Discount applied (%)                 |
+| final_price             | Price after discount                 |
+| units_sold              | Number of units in the order         |
+| revenue                 | Total revenue from the order         |
+| sales_event             | Normal / Festival                    |
+| competition_intensity   | Low / Medium / High                  |
+| inventory_pressure      | Low / High                           |
+
+**Key Stats:**
+- Total Orders: 30,600
+- Total Revenue: ≈ ₹2.175 Billion
+- Date Range: 31 Jan 2023 – 31 Dec 2025
+- No missing values
+
+---
+
+## Key Insights
+
+1. **Revenue Concentration**  
+   Premium Lifestyle and Electronics together contribute ~54% of total revenue despite similar order volumes across categories.
+
+2. **Festival Effect**  
+   Festival orders generate **60% higher average revenue** and **84% more units** compared to Normal days, driven by deeper discounts.
+
+3. **Age Matters**  
+   Customers aged 18–25 show the highest average revenue and units per order. Performance declines steadily with age.
+
+4. **Discount → Volume Relationship**  
+   Higher discount percentages strongly correlate with higher units sold. High competition intensity is linked to deeper discounts.
+
+5. **Geographic Patterns**  
+   North and South zones dominate total revenue due to higher order volume. West zone shows strong average order value.
+
+6. **Brand Type**  
+   Mass brands account for ~74% of revenue and the majority of order volume. Premium brands have modestly higher average order value.
+
+---
+
+## Visualizations
+
+- Revenue by Product Category
+- Impact of Sales Event (Revenue & Units)
+- Customer Age Group Analysis
+- Monthly Revenue Trend (2023–2025)
+- Sales Event Share (Pie Charts – Revenue & Orders)
+- Category Revenue Share by Zone (Heatmap)
+- Brand Type Analysis
+
+---
+
+## Tools Used
+- Python 3
+- Pandas
+- Matplotlib
+- Seaborn
+- NumPy
+
+---
